@@ -15,15 +15,7 @@ export default {
 }
 </script>
 
-<style>
-body {
-  background-image: url("../assets/glacier.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-}
-
+<style scoped>
 .home {
   height: 80vh;
   display: flex;

@@ -9,7 +9,7 @@
           <input id="search" v-model="searchText" name="search" placeholder="Search a National Park">
         </div>
 
-        <div v-if="loading">
+        <div v-if="loading" id="loading">
           <p>Loading...</p>
         </div>
         <div id="search-results" v-else>
@@ -65,7 +65,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .parks {
   display: flex;
   justify-content: center;
@@ -111,16 +111,10 @@ export default {
   font-size: 3vw;
 }
 
-#search-results a {
-  color: #343a40;
-  width: fit-content;
-  text-decoration: none;
-  text-align: left;
-}
 
-#search-results a:hover {
-  color: #02517d;
-  cursor: pointer;
+
+#loading {
+  text-align: center;
 }
 
 </style>
