@@ -1,5 +1,5 @@
 # creativeproj3
-This was an assignment for my web development class in which we demonstrated out ability to build a web app using Vue.js for the front end. This is a somewhat sloppy remake (I was short on time...) of a previous site I built for the class using Vue. You can see the final product at [npguidevue.slaudie.com](http://npguidevue.slaudie.com)
+This was an assignment for my web development class in which we demonstrated out ability to build a web app using Vue CLI for the front end. This is a somewhat sloppy remake (I was short on time...) of a previous site I built for the class using Vue. You can see the final product at [npguidevue.slaudie.com](http://npguidevue.slaudie.com)
 
 ## Project setup
 ```
